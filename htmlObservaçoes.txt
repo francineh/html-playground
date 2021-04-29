@@ -1,6 +1,6 @@
 observeções: video 1 sobre tags HTML
 
-tag <p> somente é colocado um texto</p>
+tag <p> somente é colocado um texto ou um link</p>
 
 tag. <h1> é colocado um titulo</h1> temos ate a tag <h6> as demais tag dos H sao apenas subtitulos</h6>
 o que nao fazer? 
@@ -13,5 +13,39 @@ nao abrir uma tag <h1> por exemplo e fechar ela dentro da tag <p>
 <h1> escrevi meu texto 
 <p> </h1> aqui tem outro texto</p> meu codigo estaria invalido.
 
+
+video 2 lista e links 
+
+temos tipos diferendes de lista.... a que nao importa a ordem, e a que necessita ser organizado.
+é necessario abrir uma outra tag
+<ul> 
+<li>item 1 </li>
+<li>item 2 </li>
+<li>item 2 </li>
+</ul>
+"NAO ESQUECER DE FECHAR UMA tag"
+
+apenas use uma lista caso for necessario uma lista e isso serve para todas as tags.
+lista quando a ordem é importante, igual se usa a li para cada lista dela. 
+esta lista "vai ser numerada"'
+<ol> 
+
+<li>item 1 </li>
+<li>item 2 </li>
+<li>item 2 </li>
+
+</ol>
+
+temos as <!--tag para fazer um link -->
+toda vez que eu criar um link pra uma pagina externa é necessario colocar "https//www"
+<a href="http://www.google.com" target="_blank">google</a>
+
+o target= blank serve para que quando vc clicar no link ele abra em outra pagina 
+
+
+<!--tag para fazer um link de contato -->
+posso colocar dentro de uma tag p( o que vai fazer com que os links fiquem um abaixo do outro)
+para direcionar para uma outra pagina é necessario por o /para dizer que saimos da minha pasta raiz e entramos na pagina contato conforme o exemplo dados
+<a href="/contato.html">contato</a>
 
 
