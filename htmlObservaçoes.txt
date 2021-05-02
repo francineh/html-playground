@@ -82,3 +82,41 @@ NAO FAZER
 POIS ISSO É FEITO NO CSS.
 
 2> nao colocar imagens grande de mais, pois o site vai demorar para carregar.( a menos que seu site seja algo especifico sobre fotos)
+
+
+dia 02/05/2021
+
+mais tags no HTML: <strong>, <em>, <blockquote>, <cite>, <marquee>, <q>, <b>
+
+dica site de texto : lorem ipsum generator < textos prontos para exemplos > facilita a vida seguir um padrao.
+
+dica 1> sobre textos quando vc quer que seu texto tenha um destaque a mais como negrito por exemplo voce usa 
+uma tag <strong>aqui dentro voce poe seu texto</strong>. este negrito é o padrao, mas voce pode mudar essa strong no css.
+
+
+dica 2> <em> esta tag destaca seu texto em formato ITALICO(padrao) </em>
+obs: os mecanismos de busca ira entender oq que esta no meu html/<dentro das tag> ;) </dentro das tag>
+> se voce esta dando enfase nesta palavra os mecanismos de busca vai enterder que o meu texto tem mais haver com a palavra em destaque.
+
+> o strong é mais forte que o em, na escala de importancia.
+
+
+dica 3> a tag <b>deixa meu texto basicamente em negrito</b>
+
+
+dica 4> a tag <q>coloca meu texto entre aspas</q>
+
+dica 5> a tag <blockquote>é para quando voce usa uma frase ou sitação que nao é sua</blockquote>
+
+dica 6> a tag <cite>serve para dizer o autor da frase e afins<cite>
+
+dica 7> a tag <marquee>faz com que seu texto tenha um efeito de rodar da direita para esqueda</marquee
+> a tag embora é possivel fazer isso no css. 
+> nao se usa mais, mas existe.
+
+
+
+
+
+
+
