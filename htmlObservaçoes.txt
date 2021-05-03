@@ -291,3 +291,20 @@ bolinhas de seleção
 
 o atributo name="email" é obrigatorio para todos os campos do seu formulario.
 
+ainda no dia 03/05/2021 estudando tags <script>, <style> e <link> e comentários
+
+1>link de estilo e do javaScripit
+    <link rel="stylesheet" href="./css/style.css">
+    <script src=" ./js/script.js"></script>
+
+2> modo de usar o estilo no html
+
+<!--<style>
+
+    body{font-size:30px;
+    background-color:green;}
+</style>-->
+
+3> <h3 style="font-size:40px; background-color:red; ">aula sobre os h e p</h3> jeito de por estilo no html( dentro do h3)
+
+4> 
