@@ -9,15 +9,17 @@
 </head>
 
 <body>
+    <!--tagas de texto h1 ao h6 e p -->
     <header <h1> Este é o nosso html playground
-
-
-    </h1>
-</header>
+        </h1>
+    </header>
+    <h3>aula sobre os h e p</h3>
     <h2>menos importante por isso fica menor (subtitulo)</h2>
     <h3>este é um subtitulo temos ate o h6</h3>
     <p> este é um paragrafo para ilustrar a tag p no html</p>
     <p>este é um outro elemento p, para explicar que a tag p que significa paragrafo.</p>
+    <h6>aulas sobre listas</h6>
+
     <!--Lista onde a Ordem não é importante -->
     <h3>Filmes Legais </h3>
     <ul>
@@ -36,6 +38,7 @@
         <li>duas xicaras de maisena/amido de milho </li>
         <li>etc </li>
     </ol>
+    <h2>aula sobre links</h2>
     <!--tag para fazer um link -->
     <p> aqui temos um link que direciona para a pagina do Google.
         <a href="http://www.google.com" target="_blank">google</a>
@@ -48,6 +51,8 @@
     <p>
         <a href="/outras-paginas/page_secreta.html">pagina secreta</a>
     </p>
+    <h3>aula sobre imagens </h3>
+    <!--trabalhando com imagens -->
     <!--pegando imagens de outros sites -->
     <p>estas imagens sao externas</p>
 
@@ -60,6 +65,9 @@
     <p>estas imagens sao de nosso proprio site </p>
     <img src="./imagem/ave.jpg" alt="ave">
     <img src="./imagem/gato.jpg" alt="gato"> />
+    <h5>aula sobre div e semantica</h5>
+    <!--tags com semantica -->
+
     <p>
         Lorem Ipsum is simply dummy text of the printing and <b>typesetting industry.</b> Lorem Ipsum has been the
         industry's standard dummy <strong> ever since the 1500s,</strong> when an unknown printer took a galley of type
@@ -76,7 +84,7 @@
     </blockquote>
 
     <marquee>este texto vai rodar</marquee>
-
+    <!--divs e outras tags -->
     <div> uma <span>palavra a mais</span> </div>
 
     <div> outra palavra</div>
@@ -84,109 +92,152 @@
     <section>esta é uma seção do meu site</section>
 
     <article>este é um artigo de um jornal ou blog</article>
-<nave>
+    <nave>
 
-    <li>
-        sobre
-    </li>
-    <li>
-        um
-    </li>
-    <li>
-        html
-    </li>
-</nave>
+        <li>
+            sobre
+        </li>
+        <li>
+            um
+        </li>
+        <li>
+            html
+        </li>
+    </nave>
+    <!--roda pe -->
+    <footer>esse vai ser o rodapé da pagina</footer>
 
-<footer>esse vai ser o rodapé da pagina</footer>
-
-<!--outro jeito de fazer -->
+    <!--outro jeito de fazer -->
 
 
 
-<!-- tabelas -->
-<table style="border:1px solid">
-<tr>
-<th>
-    produto
-</th>
-<td>
-    descrição
-</th>
-<td>
-    preço
-</th>
-
-</tr>
-<td>
-    banana
-</td>
-<td>
-    uma fruta amarela
-</td>
-<td>
-    R$10,00/kg
-</td>
-
-</tr>
-<tr>
-    <th>
-        tomate
-    </th>
-    <td>
-        uma fruta vermelha
-    </th>
-    <td>
-        
-    </th>
-    <tr>
-        <th>
-            R$10,00/kg
-        </th>
-            
-</table>
-<!--outro jeito de fazer -->
-<table style="border:1px solid">
-    <theader>
+    <!-- tabelas -->
+    <h4>aula sobre tabelas</h4>
+    <table style="border:1px solid">
         <tr>
             <th>
                 produto
             </th>
             <td>
                 descrição
-            </th>
+                </th>
             <td>
                 preço
+                </th>
+
+        </tr>
+        <td>
+            banana
+        </td>
+        <td>
+            uma fruta amarela
+        </td>
+        <td>
+            R$10,00/kg
+        </td>
+
+        </tr>
+        <tr>
+            <th>
+                tomate
             </th>
-            
+            <td>
+                uma fruta vermelha
+                </th>
+            <td>
+
+                </th>
+        <tr>
+            <th>
+                R$10,00/kg
+            </th>
+
+    </table>
+    <!--outro jeito de fazer -->
+    <table style="border:1px solid">
+        <theader>
+            <tr>
+                <th>
+                    produto
+                </th>
+                <td>
+                    descrição
+                    </th>
+                <td>
+                    preço
+                    </th>
 
 
-    </theader>
-    
-    <thebody>
-    </tr>
-    <td>
-        banana
-    </td>
-    <td>
-        uma fruta amarela
-    </td>
-    <td>
-        R$10,00/kg
-    </td>
 
-    <td>
-        uva
-    </td>
-    <td>
-        uma fruta roxa
-    </td>
-    <td>
-        R$10,00/kg
-    </td>
-</thebody>
-</table>    
+        </theader>
+
+        <thebody>
+            </tr>
+            <td>
+                banana
+            </td>
+            <td>
+                uma fruta amarela
+            </td>
+            <td>
+                R$10,00/kg
+            </td>
+
+            <td>
+                uva
+            </td>
+            <td>
+                uma fruta roxa
+            </td>
+            <td>
+                R$10,00/kg
+            </td>
+        </thebody>
+    </table>
+
+    <!--formularios-->
+
+    <h2>formularios</h2>
+    <div style="margin: top 300px; padding-bottom: 50px;"></div>
+    <form action="/contato" method="post">
+        <lebal forn="nome">nome</lebal>
+        <input id="numero" type="text" placeholder="digite seu nome" value="valor padrao" name="nome">
+        <br>
+
+        <lebal forn="descrição">descrição</lebal>
+        <textarea id="descrição" name="descrição"></textarea>
+        <br>
+
+        <lebal forn="numero">numero</lebal>
+        <input id="numero" type="number" name="numero">
+        <br>
+
+        <lebal forn="estado">estado</lebal>
+        <select>
+
+            <option value="PR">parana</option>
+            <option value="RS">rio grande do sul</option>
+            <option value="MG">minas gerais</option>
+            <option value="SP">sao paulo</option>
+        </select>
+        <lebal forn="email">Email</lebal>
+        <input id="email" type="email" name="email" desabled>
+        <br>
+        <lebal forn="checkbox">quero receber email</lebal>
+        <input id="checkbox" type="checkbox" name="email">
+
+        <lebal forn="idade">sua idade:</lebal>
+        0-30 anos <input id="idade" type="radio" name="age">
+        30-100 anos <input id="idade" type="radio" name="age">
 
 
+
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    </div>
 </body>
 
 </html>
