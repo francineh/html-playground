@@ -12,7 +12,7 @@ nao abrir uma tag <h1> por exemplo e fechar ela dentro da tag <p>
 
 <h1> escrevi meu texto 
 <p> </h1> aqui tem outro texto</p> meu codigo estaria invalido.
-
+"a tag P tambem é uma tag bloco".
 
 video 2 lista e links 
 
@@ -115,8 +115,24 @@ dica 7> a tag <marquee>faz com que seu texto tenha um efeito de rodar da direita
 > nao se usa mais, mas existe.
 
 
+APRESENTANDO AS TAG <DIV> E <SPAN>
 
+O QUE É SEMANTICA?
+é tudo aquilo que da sentido ao seu HTML
 
+dica 1> tag <div> ela nao tem nenhuma semantica, essa tag serve basicamente para formatar seu HTML</div>
 
+<div é do tipo bloco, <div>  uma palavra</div>
 
+<div>  outra  palavra</div> esses dois exemplos sao separados por blocos por isso que ficam um abaixo do outro.
+
+tags em bloco ocupa toda as dimenções da tela
+
+dica 2> Tag <span>ela nao estica, mas fica somente na palavra que se encontra dentro da tag</span>
+
+> tipo inline tags 
+
+> tag <a href="http://"> 
+
+> as tagas inline nao ocupa a dimenção de toda a tela.
 
