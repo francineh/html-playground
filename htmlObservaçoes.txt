@@ -136,3 +136,35 @@ dica 2> Tag <span>ela nao estica, mas fica somente na palavra que se encontra de
 
 > as tagas inline nao ocupa a dimenção de toda a tela.
 
+TAGS QUE SE COMPORTAM COM SEMANTICA.......................................................
+
+1> <section>esta se comporta como uma div por que ocupa todas as dimenções da tela, mas tem sentido no html,serve para especificar coisas importantes como 
+este é o preço do meu produto ou esta é a lista de produtos que existe no meu site</section>
+
+2>  <article>este é um artigo de um jornal ou blog</article> tipo blocos
+tras o significado de o que ta escrito é um artigo
+
+3> <header>esta tag normalmente vai no topo do seu site</header> tipo bloco
+
+tras como semantica aquilo que vai estar no topo do nosso site......
+
+obs: as tags divs e outras semelhantes podem recer outras TAGS
+
+4> <nave>
+
+    <li>
+        sobre
+    </li>
+    <li>
+        um
+    </li>
+    <li>
+        html
+    </li>
+</nave>
+
+é usado no menu, é uma tag de navegação..... tipo bloco
+
+5><footer>esse vai ser o rodapé da pagina</footer> tipo bloco/ rodapé 
+
+6> 
