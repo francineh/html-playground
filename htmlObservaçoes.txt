@@ -307,4 +307,3 @@ ainda no dia 03/05/2021 estudando tags <script>, <style> e <link> e comentários
 
 3> <h3 style="font-size:40px; background-color:red; ">aula sobre os h e p</h3> jeito de por estilo no html( dentro do h3)
 
-4> 
