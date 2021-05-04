@@ -291,6 +291,7 @@ bolinhas de seleção
 
 o atributo name="email" é obrigatorio para todos os campos do seu formulario.
 
+
 ainda no dia 03/05/2021 estudando tags <script>, <style> e <link> e comentários
 
 1>link de estilo e do javaScripit
@@ -306,4 +307,44 @@ ainda no dia 03/05/2021 estudando tags <script>, <style> e <link> e comentários
 </style>-->
 
 3> <h3 style="font-size:40px; background-color:red; ">aula sobre os h e p</h3> jeito de por estilo no html( dentro do h3)
+
+ESTUDANDO CLASS E ID
+
+id> foi feito para ser unico, temos que ter certeza de que aquele elemento que vamos trabalhar so tem um.
+
+tanto o id e class sozinho nao faz diferença no html mas sim no css.
+. ele estabelece um link um marcador no site. 
+ESTE EXEMPLO ESTA ERRADO
+<article id="artigo" id="outro id">este é um artigo de um jornal ou blog</article>
+    <article id="artigo">este é um artigo de um jornal ou blog</article>
+    
+    nao apresentara erros/ mas semanticamente esta errado.
+
+este exemplo esta certo 
+
+ <table style="border:1px solid" id="tabela">
+
+
+ CLASSES 
+ class
+
+ posso repedir...
+ <article class="artigo">este é um artigo de um jornal ou blog</article>
+    <article class="artigo" class="amine-page">este é um artigo de um jornal ou blog</article>
+eu posso ter quantas classes eu quiser dentro do meu elemento .
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+
+é importante nomear as classes e id semanticamente, que de sentido ao que seu site esta representando.
+
+use essa maneira {
+
+"esta-classe-significa-roda-pe"
+obs: o nome disso é kebab-case.
+}
+
+
+"EstaClasseSignificaRodaPe"
+obs: esta se chama camelcase
+
 
