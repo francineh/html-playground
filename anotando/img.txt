@@ -1,0 +1,33 @@
+DIA 01/05/2021
+
+COLOCANDO IMAGENS NO HTML
+https://placekitten.com/ (este site nos proporciona exemplos de imagens pré definidas.... obs: apenas gatinhos )
+
+na tag imagens eu posso carregar imagens de outro lugar(site)/e ou dentro de pastas
+
+<img src="http://placekitten.com/g/200/300"  alt="gatinhos">  nestes 2 casos eu posso mudar a largura e altura 
+<img src="http://placekitten.com/g/200/500"  alt="gatinhos">
+obs: tudo que for de outro site sempre colocar o "http".
+quando for usar imagens para ilustrar no seu site use o free stock( imagens gratuitas)
+
+por que serve o alt? 
+
+1> leitores de telas para aqueles que tem algum problema vizual.
+2> é o que o robo do google consegue ler, ja que ele nao le a imagem.
+
+
+imagens dentro de uma pastas
+
+<img src="./imagem/ave.jpg"  alt="ave">  
+<img src="./imagem/gato.jpg"  alt="gato"> /> (fechar a tag </img> é errado, mas é opicional fazer assim   alt="gato"> /> isto significaque a tag img esta fechada)
+
+
+"semantica" qual o significado do seu html? ' por isso o alt="" '
+
+NAO FAZER
+
+1>mesmo que a tag img suporte <img  width="largura"  height="altura" src="./imagem/ave.jpg"  alt="ave"> NAO SE USA MAIS.
+POIS ISSO É FEITO NO CSS.
+
+2> nao colocar imagens grande de mais, pois o site vai demorar para carregar.( a menos que seu site seja algo especifico sobre fotos)
+

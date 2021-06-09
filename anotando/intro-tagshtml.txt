@@ -1,0 +1,21 @@
+observeções: video 1 sobre tags HTML
+
+tag <p> somente é colocado um texto ou um link</p>
+
+tag. <h1> é colocado um titulo</h1> temos ate a tag <h6> as demais tag dos H sao apenas subtitulos</h6>
+o que nao fazer? 
+
+    nao podemos colocar uma tag h1 e etc dentro de uma tag P, embora o servidor consiga interpretar, 
+isso nao é uma boa pratica o que torna o seu html errado.
+
+nao abrir uma tag <h1> por exemplo e fechar ela dentro da tag <p> 
+
+<h1> escrevi meu texto 
+<p> </h1> aqui tem outro texto</p> meu codigo estaria invalido.
+"a tag P tambem é uma tag bloco".
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>...
+
+

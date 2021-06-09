@@ -1,0 +1,61 @@
+
+FORMULARIOS 
+
+<form action="/contato" method="post">
+
+1> <input type="text"> primeira tag de um formulario essa tag nao precisa ser aberta e fechada.
+2> <input type="number"> tipo numero
+
+</form>
+o servidor suporta uma quantidade de metodos 
+este formulario sera enviado para a url "contato" usando o metodo post que é utilizado para enviar formularios.
+
+
+3> <textarea> 
+uma das unicas tag de formulario que precisa abrir e fechar tag.
+</textarea> sao tags do tipo inline .
+
+4> <lebal forn="estado">estado</lebal>
+<select>
+
+    <option value="PR">parana</option>
+    <option value="RS">rio grande do sul</option>
+    <option value="MG">minas gerais</option>
+    <option value="SP">sao paulo</option>
+</select>
+ tag de seleção.
+
+
+ 5> <lebal forn="email">Email</lebal>
+<input id="email" type="email">
+<br>
+
+6> <lebal forn="checkbox">quero receber email</lebal>
+<input id="checkbox" type="checkbox">
+quadradinho para selecionar
+
+7>  <lebal forn="idade">sua idade:</lebal>
+0-30 anos <input id="idade" type="radio" name="age">
+30-100 anos <input id="idade" type="radio" name="age">
+bolinhas de seleção
+
+
+
+o atributo name="email" é obrigatorio para todos os campos do seu formulario.
+
+
+ainda no dia 03/05/2021 estudando tags <script>, <style> e <link> e comentários
+
+1>link de estilo e do javaScripit
+    <link rel="stylesheet" href="./css/style.css">
+    <script src=" ./js/script.js"></script>
+
+2> modo de usar o estilo no html
+
+<!--<style>
+
+    body{font-size:30px;
+    background-color:green;}
+</style>-->
+
+3> <h3 style="font-size:40px; background-color:red; ">aula sobre os h e p</h3> jeito de por estilo no html( dentro do h3)

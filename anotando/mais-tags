@@ -1,0 +1,91 @@
+
+dia 02/05/2021
+
+mais tags no HTML: <strong>, <em>, <blockquote>, <cite>, <marquee>, <q>, <b>
+
+dica site de texto : lorem ipsum generator < textos prontos para exemplos > facilita a vida seguir um padrao.
+
+dica 1> sobre textos quando vc quer que seu texto tenha um destaque a mais como negrito por exemplo voce usa 
+uma tag <strong>aqui dentro voce poe seu texto</strong>. este negrito é o padrao, mas voce pode mudar essa strong no css.
+
+
+dica 2> <em> esta tag destaca seu texto em formato ITALICO(padrao) </em>
+obs: os mecanismos de busca ira entender oq que esta no meu html/<dentro das tag> ;) </dentro das tag>
+> se voce esta dando enfase nesta palavra os mecanismos de busca vai enterder que o meu texto tem mais haver com a palavra em destaque.
+
+> o strong é mais forte que o em, na escala de importancia.
+
+
+dica 3> a tag <b>deixa meu texto basicamente em negrito</b>
+
+
+dica 4> a tag <q>coloca meu texto entre aspas</q>
+
+dica 5> a tag <blockquote>é para quando voce usa uma frase ou sitação que nao é sua</blockquote>
+
+dica 6> a tag <cite>serve para dizer o autor da frase e afins<cite>
+
+dica 7> a tag <marquee>faz com que seu texto tenha um efeito de rodar da direita para esqueda</marquee
+> a tag embora é possivel fazer isso no css. 
+> nao se usa mais, mas existe.
+
+
+APRESENTANDO AS TAG <DIV> E <SPAN>
+
+O QUE É SEMANTICA?
+é tudo aquilo que da sentido ao seu HTML
+
+dica 1> tag <div> ela nao tem nenhuma semantica, essa tag serve basicamente para formatar seu HTML</div>
+
+<div é do tipo bloco, <div>  uma palavra</div>
+
+<div>  outra  palavra</div> esses dois exemplos sao separados por blocos por isso que ficam um abaixo do outro.
+
+tags em bloco ocupa toda as dimenções da tela
+
+dica 2> Tag <span>ela nao estica, mas fica somente na palavra que se encontra dentro da tag</span>
+
+> tipo inline tags 
+
+> tag <a href="http://"> 
+
+> as tagas inline nao ocupa a dimenção de toda a tela.
+
+TAGS QUE SE COMPORTAM COM SEMANTICA.......................................................
+
+1> <section>esta se comporta como uma div por que ocupa todas as dimenções da tela, mas tem sentido no html,serve para especificar coisas importantes como 
+este é o preço do meu produto ou esta é a lista de produtos que existe no meu site</section>
+
+2>  <article>este é um artigo de um jornal ou blog</article> tipo blocos
+tras o significado de o que ta escrito é um artigo
+
+3> <header>esta tag normalmente vai no topo do seu site</header> tipo bloco
+
+tras como semantica aquilo que vai estar no topo do nosso site......
+
+obs: as tags divs e outras semelhantes podem recer outras TAGS
+
+4> <nave>
+
+    <li>
+        sobre
+    </li>
+    <li>
+        um
+    </li>
+    <li>
+        html
+    </li>
+</nave>
+
+é usado no menu, é uma tag de navegação..... tipo bloco
+
+5><footer>esse vai ser o rodapé da pagina</footer> tipo bloco/ rodapé 
+
+6> asaid> é utilizado quando precisamos criar um conteúdo de apoio/adicional ao conteúdo principal. 
+Por exemplo, ao falar de HTML semântico, 
+podemos indicar ao leitor outros conteúdos sobre a linguagem HTML como sugestão de leitura complementar.
+
+7 >main>  especifica o conteúdo principal e, consequentemente, de maior relevância dentro da página. 
+Para ser considerada bem construída, uma página deve apresentar apenas um conteúdo principal.
+

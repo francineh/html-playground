@@ -1,0 +1,71 @@
+DIA 3 DE MAIO DE 2021 .......................................................................................
+
+TABELAS NO HTML
+
+<table>
+<tr>
+cada linha 
+<td>
+    cada coluna
+</td>
+
+</tr>
+
+</table>
+
+com o css podemos formatar ela colocar bordas e etc.
+
+na primeira linha podemos usar o <tr>
+<th>
+    produto
+</th>
+<td>
+    descrição
+</th>
+<td>
+    preço
+</th>
+th funciona da mesma maneira, ela tem uma semantica de titulo.
+
+
+<theader>
+        <tr>
+            <th>
+                produto
+            </th>
+            <td>
+                descrição
+            </th>
+            <td>
+                preço
+            </th>
+            
+
+
+    </theader>
+     
+     tag que indica as coisas que ficam no cabeçalho da tabela 
+
+
+      <thebody> SERIA O CORPO DA TABELA
+    </tr>
+    <td>
+        banana
+    </td>
+    <td>
+        uma fruta amarela
+    </td>
+    <td>
+        R$10,00/kg
+    </td>
+
+    <td>
+        uva
+    </td>
+    <td>
+        uma fruta roxa
+    </td>
+    <td>
+        R$10,00/kg
+    </td>
+</thebody>

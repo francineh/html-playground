@@ -1,0 +1,34 @@
+video 2 lista e links 
+
+temos tipos diferendes de lista.... a que nao importa a ordem, e a que necessita ser organizado.
+é necessario abrir uma outra tag
+<ul> 
+<li>item 1 </li>
+<li>item 2 </li>
+<li>item 2 </li>
+</ul>
+"NAO ESQUECER DE FECHAR UMA tag"
+
+apenas use uma lista caso for necessario uma lista e isso serve para todas as tags.
+lista quando a ordem é importante, igual se usa a li para cada lista dela. 
+esta lista "vai ser numerada"'
+<ol> 
+
+<li>item 1 </li>
+<li>item 2 </li>
+<li>item 2 </li>
+
+</ol>
+
+temos as <!--tag para fazer um link -->
+toda vez que eu criar um link pra uma pagina externa é necessario colocar "https//www"
+<a href="http://www.google.com" target="_blank">google</a>
+
+o target= blank serve para que quando vc clicar no link ele abra em outra pagina 
+
+
+<!--tag para fazer um link de contato -->
+posso colocar dentro de uma tag p( o que vai fazer com que os links fiquem um abaixo do outro)
+para direcionar para uma outra pagina é necessario por o /para dizer que saimos da minha pasta raiz e entramos na pagina contato conforme o exemplo dados
+<a href="/contato.html">contato</a>
+
